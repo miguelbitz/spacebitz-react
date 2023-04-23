@@ -26,8 +26,6 @@ export default function Footer(props) {
         return () => window.removeEventListener('scroll', handleScroll);
     }, [])
 
-
-    console.log(isFooterVisible)
     const renderList = () => {
         switch (props.screen) {
             case 1:
