@@ -33,7 +33,7 @@ The main features of the E-Commerce SpaceBitz project include:
 ## The project is hosted on GitHub Pages. Access the deployment through the link:
 
 ```bash
-  https://miguelbitz.github.io/frontendreact-project/
+  spacebitz-react.vercel.app
  ```
  
 ## Collaboration
