@@ -30,7 +30,7 @@ The main features of the E-Commerce SpaceBitz project include:
 - Data persistence in localStorage
 - Deployment
 
-## The project is hosted on GitHub Pages. Access the deployment through the link:
+## The project is hosted on Vercel. Access the deployment through the link:
 
 ```bash
   spacebitz-react.vercel.app
