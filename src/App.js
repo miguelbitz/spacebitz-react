@@ -21,10 +21,6 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 function App() {
 
-
-  const windowWidth = window.innerWidth;
-
-  console.log(windowWidth)
   const [minFilter, setMinFilter] = useState('')
   const [maxFilter, setMaxFilter] = useState('')
   const [searchFilter, setSearchFilter] = useState('')
@@ -133,7 +129,8 @@ function App() {
           searchFilter={searchFilter}
           setSearchFilter={setSearchFilter} />
         {renderList()}
-        <Footer />
+        <Footer
+        screen={screen} />
       </Container>
 
     </>
